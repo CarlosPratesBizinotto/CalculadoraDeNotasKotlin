@@ -70,12 +70,23 @@
         android:id="@+id/button"
         android:layout_width="375dp"
         android:layout_height="51dp"
-        android:layout_marginTop="72dp"
-        android:text="Calcular"
+        android:layout_marginTop="52dp"
+        android:text="@string/Calcular"
         android:textColor="@color/black"
         app:backgroundTint="#CCB8B8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="233dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
